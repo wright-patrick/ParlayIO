@@ -1,0 +1,23 @@
+﻿<Application x:Class="ParlayIO.Client.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:viewmodels="clr-namespace:ParlayIO.Client.Core.ViewModels"
+             StartupUri="Core/Views/MainWindow.xaml">
+    <Application.Resources>
+        <viewmodels:MainViewModel x:Key="MainViewModel"/>
+        
+        <SolidColorBrush Color="#2e3440" x:Key="PolarNightDark"/>
+        <SolidColorBrush Color="#3b4252" x:Key="PolarNightMedium"/>
+        <SolidColorBrush Color="#434c5e" x:Key="PolarNightLight"/>
+        <SolidColorBrush Color="#4c566a" x:Key="PolarNightVeryLight"/>
+
+        <SolidColorBrush Color="#d8dee9" x:Key="SnowStormDark"/>
+        <SolidColorBrush Color="#e5e9f0" x:Key="SnowStormMedium"/>
+        <SolidColorBrush Color="#eceff4" x:Key="SnowStormLight"/>
+
+        <SolidColorBrush Color="#88c0d0" x:Key="FrostBlue"/>
+        <SolidColorBrush Color="#d08770" x:Key="AuroraOrange"/>
+
+        <BooleanToVisibilityConverter x:Key="BoolToVisibility"/>
+
+    </Application.Resources>
+</Application>
